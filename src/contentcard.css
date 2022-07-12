@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.twitter_btn{
+    margin-top: 5px;
+}
+.twitter_btn:hover {
+  cursor: pointer;
+  color: #38a1f3;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fondamento', cursive;
+}
+.author{
+  display: flex;
+  justify-content: end;
+}
+
+.btn:hover{
+  color: #38a1f3;
+}
+.spinner{
+  margin-left: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  #root{
+    font-size: 1.5rem;
+  }
+}
